@@ -1,0 +1,248 @@
+
+* {margin: 0;}
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.container {
+    position:;
+    margin:35% 2% 10% 2%;
+}
+
+.navbar {
+    z-index: 1;
+    position: fixed;
+    top: 0rem;
+    padding: 0.5rem 0rem 0rem;
+    width: 100%;
+    height: 2rem;
+    background-color:#0066cc;
+}
+
+.menu-hamburguer {
+    margin: 0rem .7rem;
+    float: left;
+    text-decoration: none;
+    font-size: 1rem;
+    color:#111109; 
+}
+
+.navbar img {
+    display: inline-block;
+    position: absolute;
+    bottom: 0rem;
+    left: 4rem;
+    width: 40%;
+}
+
+.carrossel-conteudo {
+    display: block;
+}
+
+.carrossel-conteudo img {
+    width: 100%;
+}
+
+.carrossel-imgtitulo {
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: -1.8rem;
+    padding: 0.05rem;
+    width: 60%;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    color: white;
+    background-color: lightskyblue;
+    font-weight: lighter;
+}
+
+.carrossel h2 {
+    font-size: .9rem;
+    color: #242320;
+}
+
+.carrossel-slide {
+    display: block;
+    width: 21%;
+    margin: auto;
+}
+.carrossel-slide label {
+    margin: 1rem 0rem 2rem;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 4px;
+    height: 4px;
+    border: 0.8px solid lightgrey;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+.conteudo-01 {
+    width: 100%;
+}
+
+.conteudo-1 img {
+    width: 100%;
+}
+.conteudo-1-titulo {
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: -1.8rem;
+    padding: 0.2rem 0.5rem;
+    font-size: .5rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: lighter;
+    background-color: rgba(222, 82, 44, 0.7);
+}
+
+.box1 {
+    width: 30%;
+}
+.box2 {
+    width: 40%;
+}
+.box3 {
+    width: 45%;
+}
+
+.conteudo-2 {
+    margin-top: 2rem;
+}
+
+.conteudo-2 h3 {
+    margin-bottom: 0.5rem;
+    color: #242320;
+    font-size: 0.73rem;
+    font-weight: lighter; 
+}
+.conteudo-2 img {
+    width: 100%;
+}
+.conteudo-2-imgtitulo {
+    margin: 0.4rem 0rem;
+    font-size: 0.6rem;
+    color: lightskyblue; 
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.conteudo-2-materia {
+    margin: 0.4rem 0rem;
+    font-weight: lighter;
+    font-size: 0.6rem;
+    color:#242320;
+}
+
+.conteudo-2 hr {
+    margin: 0.4rem 0rem 0.45rem;
+    border: 0.5px solid #ebebe0;
+}
+
+.conteudo-3-titulo {
+    margin: 1.2rem 0rem 0.4rem;
+    color: lightskyblue;
+    font-size: 0.7rem;
+    font-weight: lighter;   
+}
+
+.conteudo-3 hr {
+    margin: 0.4rem 0rem 0.45rem;
+    border: 0.5px solid #ebebe0;
+}
+
+.conteudo-3-materia {
+    margin: 0.4rem 0rem;
+    font-weight: lighter;
+    font-size: 0.5rem;
+    color:#242320;
+}
+
+.titulo-conteudo-4 {
+    margin: 1.2rem 0rem 0.4rem;
+    color: #DE522C;
+    font-weight: lighter;
+    font-size: 0.9rem;  
+}
+.row {
+    display:flex;
+    width: 100%
+} 
+
+.box-conteudo-4 {
+    padding: 0.7rem 0rem 0rem 1.5rem;
+}
+.conteudo-4 img {
+    padding-bottom: 0.5rem;
+    display: inline-block;
+    width: 100%;
+}
+
+.titulo-materia-4 {
+    padding-bottom: 0.1rem;
+    font-size: 0.6rem;
+    color:#DE522C;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.materia-4 {
+    font-size:0.6rem;
+    color:#242320;
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%};
+.col-10{width: 83.33%};
+.col-11{width: 91.66%};
+.col-12{width: 100%};
+
+.anuncio {
+    display: inline-block;
+}
+
+.anuncio img {
+    width: 65%;
+    margin: 2rem 2.8rem 4rem;
+}
+
+.rodape-1 {
+    box-sizing: border-box;
+    margin-top:1rem;
+    color: white;
+    text-transform: uppercase;
+    background-color: #0066cc;
+}
+
+.conteudo-rodape {
+    display: block;
+    float: right;
+}
+.rodape-1 h6 {
+    display: inline-block;
+    margin: 0.3rem 0 0.3rem;
+    font-size: 0.5rem;
+    font-weight: lighter;
+    float: right;
+}
+
+.rodape-2 {
+    box-sizing: border-box;
+    padding: 1rem 0.7rem;
+    color: #ffffff;
+    background-color: #19334d;
+    font-size: 0.4rem;
+
+}
+
+
+
