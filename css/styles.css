@@ -79,9 +79,6 @@ body {
     border-radius: 50%;
     background-color: lightgray;
 }
-.conteudo-01 {
-    width: 100%;
-}
 
 .conteudo-1 img {
     width: 100%;
@@ -244,5 +241,11 @@ body {
 
 }
 
-
+/*Tablet*/
+@media(min-width: 768px) {
+  .img-titulo-1 {
+      display: inline-block;
+      width: 33%;
+  }  
+}
 
