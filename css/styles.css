@@ -52,15 +52,16 @@ body {
     margin-top: -1.8rem;
     padding: 0.05rem;
     width: 60%;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
     color: white;
-    background-color: lightskyblue;
+    background-color: #0066cc;
     font-weight: lighter;
 }
 
 .carrossel h2 {
-    font-size: .9rem;
+    padding: 0.5rem 0rem;
+    font-size: 1rem;
     color: #242320;
 }
 
@@ -80,6 +81,11 @@ body {
     background-color: lightgray;
 }
 
+.carrossel-slide label:hover {
+    border: 0.8px solid #0066cc;
+    background-color:#0066cc;
+}
+
 .conteudo-1 img {
     width: 100%;
 }
@@ -87,8 +93,8 @@ body {
     box-sizing: border-box;
     position: absolute;
     margin-top: -1.8rem;
-    padding: 0.2rem 0.5rem;
-    font-size: .5rem;
+    padding: 0.1rem 0.5rem;
+    font-size: .8rem;
     text-transform: uppercase;
     color: white;
     font-weight: lighter;
@@ -108,11 +114,14 @@ body {
 .conteudo-2 {
     margin-top: 2rem;
 }
+.box-conteudo-2 {
+    width:100%;
+} 
 
 .conteudo-2 h3 {
     margin-bottom: 0.5rem;
     color: #242320;
-    font-size: 0.73rem;
+    font-size: 0.8rem;
     font-weight: lighter; 
 }
 .conteudo-2 img {
@@ -120,7 +129,7 @@ body {
 }
 .conteudo-2-imgtitulo {
     margin: 0.4rem 0rem;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     color: lightskyblue; 
     font-weight: lighter;
     text-transform: uppercase;
@@ -129,7 +138,7 @@ body {
 .conteudo-2-materia {
     margin: 0.4rem 0rem;
     font-weight: lighter;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     color:#242320;
 }
 
@@ -141,7 +150,7 @@ body {
 .conteudo-3-titulo {
     margin: 1.2rem 0rem 0.4rem;
     color: lightskyblue;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-weight: lighter;   
 }
 
@@ -153,7 +162,7 @@ body {
 .conteudo-3-materia {
     margin: 0.4rem 0rem;
     font-weight: lighter;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     color:#242320;
 }
 
@@ -161,7 +170,7 @@ body {
     margin: 1.2rem 0rem 0.4rem;
     color: #DE522C;
     font-weight: lighter;
-    font-size: 0.9rem;  
+    font-size: 1rem;  
 }
 .row {
     display:flex;
@@ -179,15 +188,21 @@ body {
 
 .titulo-materia-4 {
     padding-bottom: 0.1rem;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     color:#DE522C;
     text-transform: uppercase;
     font-weight: lighter;
 }
 
 .materia-4 {
-    font-size:0.6rem;
+    font-size:0.8rem;
     color:#242320;
+}
+
+.conteudo-5 img {
+        padding-bottom: 0.5rem;
+        display: inline-block;
+        width: 100%;
 }
 
 .col-1{width: 8.33%;}
@@ -240,12 +255,156 @@ body {
     font-size: 0.4rem;
 
 }
-
+/*Mobile*/
+@media(max-width: 768px) {
+    .rodape-2 img {
+        display: none;
+    }
+}
 /*Tablet*/
 @media(min-width: 768px) {
-  .img-titulo-1 {
-      display: inline-block;
-      width: 33%;
-  }  
+    .container {
+        margin: 12% 5% 10% 5%;
+    }
+
+    .navbar img {
+        width: 12%;
+        max-height: 2.5rem;
+        left: 6rem;
+    }
+
+    .carrossel {
+        display: block;
+    }
+
+    .carrossel-imgtitulo {
+        margin: -5.5rem 2rem;
+        padding: 0.2rem 2.5rem 0.2rem 0.3rem;
+        width: 30%;
+        font-size: 1rem;   
+     }
+    .carrossel h2 {
+        font-size: 1.4rem;
+        color: #ffffff;
+        margin: -3.5rem 2rem;
+    }
+    .carrossel-slide {
+        width: fit-content;
+        position: relative;
+        margin: 5rem auto 0;
+    }
+
+    .carrossel-slide label {
+        width: 8px;
+        height: 8px;
+    }
+    .img-titulo-1 {
+        display: inline-block;
+        width: 31.5%;
+        padding: 0rem 0.2rem;
+    }
+    .conteudo-1-titulo {
+        font-size: .7rem;
+    }
+    .box1 {
+        width: 8%;
+    }
+    .box2 {
+        width:12%;
+    }
+    .box3 {
+        width:20%;
+    }
+    .conteudo-2 h3 {
+        margin-bottom: 0.7rem;
+        font-size: 1.2;
+    }
+    .box-conteudo-2 {
+        width: 47%;
+        display: inline-block;
+        margin: 0rem .5rem;
+    }
+    .box-conteudo-2 img {
+        max-height: 12em;
+        min-height: 12em;
+    }
+    .conteudo-2-imgtitulo {
+        font-size: 1rem;
+    }
+    .conteudo-2-materia {
+        margin: 0.4rem 0rem 1rem;
+        font-size: 1rem;
+    }
+    .conteudo-2 hr {
+        margin: 0.4rem 0rem 1rem;
+    }
+    .conteudo-3 {
+        display: inline-block;
+        width: 40%;
+    }
+    .conteudo-3-titulo {
+        font-size:1.1rem;
+        margin: 0.8rem 0rem;
+    }
+    .conteudo-3-materia {
+        font-size: 0.9rem;
+        margin: 0.8rem 0rem;
+    }
+
+    .conteudo-4 {
+        display: inline-block;
+        width: 40%;
+        margin: 2.5rem 4rem;
+    }
+    .titulo-conteudo-4 {
+        font-size: 1.1rem;
+    }
+    .titulo-materia-4 {
+        font-size: 1rem;
+    }
+    .materia-4 {
+        font-size: 1rem;
+    }
+    .conteudo-5 {
+        display: inline-block;
+        width: 40%;
+    }
+    .anuncio {
+        display: inline-block;
+        width: 50%;
+        float: right;
+        margin-top: 3rem
+    }
+    .rodape-1 {
+        position: relative;
+        min-height:1.5rem;
+        margin-top: 0rem;
+    }
+
+    .rodape-1 h6 {
+        display: inline-block;
+        position: absolute;
+        right: 2rem;
+    }
+    .rodape-1 img {
+        float: right;
+        right: 1rem;
+        display: inline-block;
+    }
+    .rodape-2 {
+        position: relative;
+    }
+    .rodape-2 p {
+        display: inline-block;
+        width: 70%;
+        font-size: .6rem;
+        margin: 0rem 5rem 1.5rem;
+    }
+    .rodape-2 img {
+        display: inline-block;
+        width: 8%;
+        max-height: 2rem;
+        float: left; 
+    }
 }
 
